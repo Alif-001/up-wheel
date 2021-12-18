@@ -32,6 +32,8 @@ const Statics = () => {
           justifyContent: "space-evenly",
           color: "white",
           my: "50px",
+          overflowX: "hidden",
+          overflowY: "hidden",
         }}
       >
         <Box>

@@ -30,7 +30,7 @@ const Form = () => {
             <Grid item xs={12} sm={12} md={12}>
               <Box
                 sx={{
-                  width: 500,
+                  width: "500",
                   maxWidth: "100%",
                   margin: "auto",
                 }}

@@ -48,6 +48,13 @@ const Register = () => {
           spacing={3}
           columns={{ xs: 4, sm: 8, md: 12 }}
         >
+          <Grid item xs={4} sm={4} md={7}>
+            <img
+              style={{ width: "100%" }}
+              src="https://i.ibb.co/YQ0X8Hn/clipart2140121.png"
+              alt=""
+            />
+          </Grid>
           <Grid item xs={4} sm={4} md={5}>
             <form onSubmit={handleSubmit(onSubmit)}>
               <Typography variant="h4" fontWeight="bold">
@@ -112,13 +119,6 @@ const Register = () => {
                 Account successfully created.
               </Alert>
             )}
-          </Grid>
-          <Grid item xs={4} sm={4} md={7}>
-            <img
-              style={{ width: "100%", transform: "rotate(-15deg)" }}
-              src="https://i.ibb.co/pf7GTMT/h2-img-4-1-1.png"
-              alt=""
-            />
           </Grid>
         </Grid>
       </Container>

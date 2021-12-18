@@ -1,5 +1,6 @@
 import AddBoxSharpIcon from "@mui/icons-material/AddBoxSharp";
 import AdminPanelSettingsIcon from "@mui/icons-material/AdminPanelSettings";
+import DashboardIcon from "@mui/icons-material/Dashboard";
 import HomeIcon from "@mui/icons-material/Home";
 import LogoutSharpIcon from "@mui/icons-material/LogoutSharp";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -78,10 +79,11 @@ function Dashboard(props) {
           sx={{
             fontSize: "5rem",
             fontWeight: 700,
+            color: "#0061ff",
           }}
         />
       </Link>
-      <Divider />
+
       <Link className={root} to="/home" sx={{ mb: 0 }}>
         <ListItem button>
           <ListItemIcon sx={{ mb: 0 }}>
@@ -251,6 +253,7 @@ function Dashboard(props) {
             <Typography variant="h4" sx={{ fontWeight: "bold", mt: 5 }}>
               Welcome to Dashboard
             </Typography>
+            <DashboardIcon sx={{ mt: 5, fontSize: "100px" }} />
           </Route>
           {/* user  */}
 

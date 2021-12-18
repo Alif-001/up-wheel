@@ -74,10 +74,18 @@ function BikeTable({ bikes }) {
           <Table stickyHeader aria-label="sticky table" sx={{ minWidth: 480 }}>
             <TableHead>
               <TableRow>
-                <StyledTableCell>Bike Name</StyledTableCell>
-                <StyledTableCell>Rating</StyledTableCell>
-                <StyledTableCell>Price</StyledTableCell>
-                <StyledTableCell>Delete</StyledTableCell>
+                <StyledTableCell sx={{ textAlign: "center" }}>
+                  Bike Name
+                </StyledTableCell>
+                <StyledTableCell sx={{ textAlign: "center" }}>
+                  Rating
+                </StyledTableCell>
+                <StyledTableCell sx={{ textAlign: "center" }}>
+                  Price
+                </StyledTableCell>
+                <StyledTableCell sx={{ textAlign: "center" }}>
+                  Delete
+                </StyledTableCell>
               </TableRow>
             </TableHead>
             <TableBody>

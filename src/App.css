@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -111,6 +110,41 @@
   top: 80px !important;
   padding: 50px;
   margin: 0 auto;
+}
+#root
+  > div
+  > div
+  > main
+  > div
+  > div
+  > div
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.css-dq3jpz-MuiPaper-root-MuiTableContainer-root
+  > table
+  > thead
+  > tr
+  > th {
+  background-color: black;
+}
+#primary-search-account-menu
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiMenu-paper.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper
+  > ul
+  > div
+  > button
+  > svg {
+  color: black;
+}
+#root
+  > div
+  > div
+  > main
+  > div
+  > div
+  > div.MuiTableContainer-root.css-910i4z-MuiTableContainer-root
+  > table
+  > thead
+  > tr
+  > th {
+  background: black;
 }
 @media screen and (max-width: 947px) {
   .reviewing {

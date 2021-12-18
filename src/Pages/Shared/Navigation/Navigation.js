@@ -11,7 +11,6 @@ import {
 } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import { deepOrange } from "@mui/material/colors";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -110,7 +109,6 @@ function Navigation() {
     </Menu>
   );
 
-  ////mobile menu
   const list = (anchor) => (
     <Box
       sx={{
@@ -123,28 +121,40 @@ function Navigation() {
       <List>
         <ListItem button>
           <Link className={root} to="/home">
-            <Typography variant="body2" sx={{ fontWeight: "400" }}>
+            <Typography
+              variant="body2"
+              sx={{ fontWeight: "400", color: "black" }}
+            >
               Home
             </Typography>
           </Link>
         </ListItem>
         <ListItem button>
           <Link className={root} to="/explore">
-            <Typography variant="body2" sx={{ fontWeight: "400" }}>
+            <Typography
+              variant="body2"
+              sx={{ fontWeight: "400", color: "black" }}
+            >
               Explore
             </Typography>
           </Link>
         </ListItem>
         <ListItem button>
           <Link className={root} to="/about">
-            <Typography variant="body2" sx={{ fontWeight: "400" }}>
+            <Typography
+              variant="body2"
+              sx={{ fontWeight: "400", color: "black" }}
+            >
               About Us
             </Typography>
           </Link>
         </ListItem>
         <ListItem button>
           <Link className={root} to="/contact">
-            <Typography variant="body2" sx={{ fontWeight: "400" }}>
+            <Typography
+              variant="body2"
+              sx={{ fontWeight: "400", color: "black" }}
+            >
               Contact Us
             </Typography>
           </Link>
@@ -153,7 +163,10 @@ function Navigation() {
         {!user?.email ? (
           <ListItem button>
             <Link className={root} to="/login">
-              <Typography variant="body2" sx={{ fontWeight: "400" }}>
+              <Typography
+                variant="body2"
+                sx={{ fontWeight: "400", color: "black" }}
+              >
                 Login
               </Typography>
             </Link>
@@ -167,7 +180,7 @@ function Navigation() {
                 <Tooltip title={user?.displayName} placement="right">
                   <IconButton>
                     <AccountCircle
-                      sx={{ fontSize: 40, color: deepOrange[500], px: 4 }}
+                      sx={{ fontSize: 40, color: "black", px: 4 }}
                     />
                   </IconButton>
                 </Tooltip>
@@ -179,13 +192,19 @@ function Navigation() {
             </Box>
             <ListItem button>
               <Link className={root} to="/dashboard">
-                <Typography variant="body2" sx={{ fontWeight: "400" }}>
+                <Typography
+                  variant="body2"
+                  sx={{ fontWeight: "400", color: "black" }}
+                >
                   DashBoard
                 </Typography>
               </Link>
             </ListItem>
             <ListItem onClick={handleLogOut} button>
-              <Typography variant="body2" sx={{ fontWeight: "400" }}>
+              <Typography
+                variant="body2"
+                sx={{ fontWeight: "400", color: "black" }}
+              >
                 Logout
               </Typography>
             </ListItem>

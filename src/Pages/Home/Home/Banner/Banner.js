@@ -28,7 +28,7 @@ const Banner = () => {
         flexGrow: 1,
         mt: 2,
         width: "100%",
-        height: "100vh",
+        height: "100%",
       }}
       maxWidth="false"
     >
@@ -39,19 +39,21 @@ const Banner = () => {
           sx={{
             textAlign: "start",
             mx: 10,
+            height: "100vh",
+            overflow: "hidden",
           }}
         >
           <Typography
             variant="h2"
             sx={{ my: 5 }}
-            style={{ color: "white", fontWeight: 300 }}
+            style={{ color: "white", fontWeight: 600, fontSize: "4rem", p: 5 }}
           >
             Choose From Close to a Million Used Cars
           </Typography>
           <Typography
             variant="h6"
             sx={{ my: 5 }}
-            style={{ color: "white", fontSize: 24, fontWeight: 300 }}
+            style={{ color: "white", fontSize: "1.6rem", fontWeight: 300 }}
           >
             Get access to our extensive selection of pre-owned vehicles for sale
             across the US, and see price ratings based on similar used car

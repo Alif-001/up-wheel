@@ -7,7 +7,7 @@ import {
 } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import { green, red } from "@mui/material/colors";
+import { blue, green, red } from "@mui/material/colors";
 import Typography from "@mui/material/Typography";
 import { makeStyles, styled } from "@mui/styles";
 import { Box } from "@mui/system";
@@ -37,7 +37,6 @@ const useStyles = makeStyles({
 });
 
 const SingleOrder = ({ order }) => {
-  //delete bike
   const handleDelete = (id) => {
     Swal.fire({
       title: "Are you sure?",
@@ -57,7 +56,7 @@ const SingleOrder = ({ order }) => {
       }
     });
   };
-  console.log(order);
+  console.log(order?.status);
   const { root, status } = useStyles();
   return (
     <Card
@@ -73,7 +72,7 @@ const SingleOrder = ({ order }) => {
             <Typography
               variant="subtitle1"
               className={status}
-              sx={{ bgcolor: red[700], mr: "auto" }}
+              sx={{ bgcolor: blue[700], mr: "auto" }}
             >
               {order?.status}
             </Typography>

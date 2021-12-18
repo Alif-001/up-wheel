@@ -87,8 +87,12 @@ const Login = () => {
           </Grid>
           <Grid item xs={4} sm={4} md={7}>
             <img
-              style={{ width: "100%", transform: "rotate(-15deg)" }}
-              src="https://i.ibb.co/pf7GTMT/h2-img-4-1-1.png"
+              style={{
+                width: "100%",
+                transform: "rotate(-15deg)",
+                marginTop: "15px",
+              }}
+              src="https://i.ibb.co/YQ0X8Hn/clipart2140121.png"
               alt=""
             />
           </Grid>

@@ -59,7 +59,20 @@ function ReviewSlider() {
         <Typography variant="h4" fontWeight="bold">
           Reviews
         </Typography>
-        <Grid container columns={{ xs: 4, sm: 6, md: 6 }}>
+        <Grid
+          container
+          columns={{ xs: 4, sm: 6, md: 6 }}
+          sx={{
+            boxShadow: 2,
+            bgcolor: "background.paper",
+            borderRadius: "20px",
+            justifyContent: "center",
+            textAlign: "center",
+            my: 6,
+            py: 6,
+            px: 10,
+          }}
+        >
           <Grid
             item
             xs={6}

@@ -95,7 +95,7 @@ const Footer = () => {
         </Grid>
         <Box>
           <Typography sx={{ mt: 5, pb: 2 }} color="lightgrey">
-            @copyright all right reserved.
+            &copy; copyright all right reserved.
           </Typography>
         </Box>
       </Container>

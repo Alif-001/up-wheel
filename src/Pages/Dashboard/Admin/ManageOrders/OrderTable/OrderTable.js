@@ -75,11 +75,11 @@ function OrderTable({ orders }) {
           <TableHead>
             <TableRow>
               <StyledTableCell>Customer Name</StyledTableCell>
-              <StyledTableCell align="right">Bike Name</StyledTableCell>
-              <StyledTableCell align="right">Price</StyledTableCell>
-              <StyledTableCell align="right">Address</StyledTableCell>
-              <StyledTableCell align="right">Status</StyledTableCell>
-              <StyledTableCell align="right">Delete</StyledTableCell>
+              <StyledTableCell align="center">Bike Name</StyledTableCell>
+              <StyledTableCell align="center">Price</StyledTableCell>
+              <StyledTableCell align="center">Address</StyledTableCell>
+              <StyledTableCell align="center">Status</StyledTableCell>
+              <StyledTableCell align="center">Delete</StyledTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
