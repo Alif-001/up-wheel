@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#root
+  > div
+  > div
+  > div.MuiBox-root.css-i9gxme
+  > header
+  > div
+  > div.MuiBox-root.css-1guk29
+  > button {
+  padding: 0;
+}
+#root
+  > div
+  > div
+  > div
+  > div.MuiBox-root.css-i9gxme
+  > header
+  > div
+  > div.MuiBox-root.css-1guk29
+  > button {
+  padding: 0 !important;
+}
+#root
+  > div
+  > div.MuiBox-root.css-i9gxme
+  > header
+  > div
+  > div.MuiBox-root.css-1guk29
+  > button {
+  padding: 0;
+}
+#root
+  > div
+  > div
+  > div.MuiBox-root.css-15eqp23
+  > div
+  > div
+  > div
+  > div
+  > div.MuiCardActions-root.MuiCardActions-spacing.css-1rnkjd-MuiCardActions-root
+  > div
+  > a
+  > button {
+  border-color: #0061ff;
+}
+#root
+  > div
+  > div
+  > div
+  > div.MuiBox-root.css-15eqp23
+  > div.MuiContainer-root.MuiContainer-maxWidthLg.css-1oqqzyl-MuiContainer-root
+  > div
+  > div
+  > div
+  > div.MuiCardActions-root.MuiCardActions-spacing.css-1rnkjd-MuiCardActions-root
+  > div
+  > a
+  > button {
+  border-color: #0061ff;
+}
+#root > div > div > div > div > div {
+  justify-content: center;
+}
+#root > div > div > nav > div > div > div > ul {
+  padding-top: 0 !important;
+}
+.hexagon {
+  color: #0061ff;
+  background-color: azure;
+  border-radius: 50%;
+  padding: 20px;
+}
+#banner:before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% - 60px);
+  left: 0;
+  right: 0;
+  /* top: 100%; */
+  bottom: -120px;
+  height: 104px;
+  background-image: url(https://i.ibb.co/54wvn1p/usedmotorcyclestore-bg-texture-footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+.button:hover {
+  background-color: #60efff !important;
+}
+.cancel {
+  padding: 10px 35px !important;
+  right: 8px !important;
+}
+.follow {
+  position: relative;
+  left: 0;
+  top: 80px !important;
+  padding: 50px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 947px) {
+  .reviewing {
+    display: none !important ;
+  }
+  .slider {
+    width: 100% !important;
+  }
+}
+#root > div > div > div:nth-child(6) > div > div > div {
+  max-width: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
