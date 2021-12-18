@@ -32,7 +32,7 @@ const Explore = () => {
             <Box sx={{ my: 5 }}>
               <Typography fontWeight="bold" variant="h4">
                 {" "}
-                BIKE RANGE
+                ALL BIKES
               </Typography>
             </Box>
             <Container>
