@@ -48,7 +48,7 @@ const Banner = () => {
             sx={{ my: 5 }}
             style={{ color: "white", fontWeight: 600, fontSize: "4rem", p: 5 }}
           >
-            Choose From Close to a Million Used Cars
+            Choose From Close to a Million Bike
           </Typography>
           <Typography
             variant="h6"
