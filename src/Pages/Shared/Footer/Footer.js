@@ -89,7 +89,7 @@ const Footer = () => {
             >
               {" "}
               <Email />{" "}
-              <Typography sx={{ mx: 1 }}> support@superbike.com</Typography>
+              <Typography sx={{ mx: 1 }}> upwheel[a]mail.com</Typography>
             </Box>
           </Grid>
         </Grid>
