@@ -6,7 +6,7 @@ const Pay = () => {
   const { bikeId } = useParams();
   return (
     <div>
-      <Typography variant="h4">bike id: {bikeId}</Typography>
+      <Typography variant="h4">Payment system coming soon ..</Typography>
     </div>
   );
 };

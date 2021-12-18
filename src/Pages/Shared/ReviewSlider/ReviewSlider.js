@@ -47,9 +47,11 @@ function ReviewSlider() {
   const [reviews, setReviews] = useState([]);
   ///load reviews
   useEffect(() => {
-    axios.get("http://localhost:5000/review").then((res) => {
-      setReviews(res.data);
-    });
+    axios
+      .get("https://limitless-sierra-79316.herokuapp.com/review")
+      .then((res) => {
+        setReviews(res.data);
+      });
   }, []);
   console.log(reviews);
 

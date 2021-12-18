@@ -7,9 +7,11 @@ const ManageBikes = () => {
   const [bikes, setBikes] = useState([]);
   ///load all orders
   useEffect(() => {
-    axios.get("http://localhost:5000/bikes").then((res) => {
-      setBikes(res.data);
-    });
+    axios
+      .get("https://limitless-sierra-79316.herokuapp.com/bikes")
+      .then((res) => {
+        setBikes(res.data);
+      });
   }, [bikes]);
   return (
     <div>

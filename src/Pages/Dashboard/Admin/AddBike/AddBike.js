@@ -10,19 +10,21 @@ const AddBike = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     ///post data to server
-    axios.post("http://localhost:5000/bikes", data).then((res) => {
-      //bike added
-      if (res.data.insertedId) {
-        Swal.fire({
-          title: "Bike Added",
-          text: "Bike added to your store.",
-          icon: "success",
-          confirmButtonColor: "#3085d6",
-          confirmButtonText: "OK",
-        });
-        reset();
-      }
-    });
+    axios
+      .post("https://limitless-sierra-79316.herokuapp.com/bikes", data)
+      .then((res) => {
+        //bike added
+        if (res.data.insertedId) {
+          Swal.fire({
+            title: "Bike Added",
+            text: "Bike added to your store.",
+            icon: "success",
+            confirmButtonColor: "#3085d6",
+            confirmButtonText: "OK",
+          });
+          reset();
+        }
+      });
   };
 
   return (

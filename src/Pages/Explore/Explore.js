@@ -12,10 +12,12 @@ const Explore = () => {
   const [isLoading, setIsLoading] = useState(true);
   //load all bike
   useEffect(() => {
-    axios.get("http://localhost:5000/bikes").then((res) => {
-      setBikes(res.data);
-      setIsLoading(false);
-    });
+    axios
+      .get("https://limitless-sierra-79316.herokuapp.com/bikes")
+      .then((res) => {
+        setBikes(res.data);
+        setIsLoading(false);
+      });
     if (!bikes) {
       return <Spinner />;
     }

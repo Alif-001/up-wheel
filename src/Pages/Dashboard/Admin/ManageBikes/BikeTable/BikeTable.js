@@ -45,11 +45,13 @@ const handleDelete = (id) => {
     confirmButtonText: "Yes, delete it!",
   }).then((result) => {
     if (result.isConfirmed) {
-      axios.delete(`http://localhost:5000/deleteBike/${id}`).then((res) => {
-        if (res.data.deletedCount) {
-          Swal.fire("Deleted!", "Your file has been deleted.", "success");
-        }
-      });
+      axios
+        .delete(`https://limitless-sierra-79316.herokuapp.com/deleteBike/${id}`)
+        .then((res) => {
+          if (res.data.deletedCount) {
+            Swal.fire("Deleted!", "Your file has been deleted.", "success");
+          }
+        });
     }
   });
 };

@@ -20,18 +20,20 @@ const Review = () => {
   const onSubmit = (data) => {
     data.rating = rate;
     ///review post to server
-    axios.post("http://localhost:5000/review", data).then((res) => {
-      if (res.data.insertedId) {
-        Swal.fire({
-          title: "Review",
-          text: "Your valuable review sent.",
-          icon: "success",
-          confirmButtonColor: "#3085d6",
-          confirmButtonText: "Yes",
-        });
-        reset();
-      }
-    });
+    axios
+      .post("https://limitless-sierra-79316.herokuapp.com/review", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          Swal.fire({
+            title: "Review",
+            text: "Your valuable review sent.",
+            icon: "success",
+            confirmButtonColor: "#3085d6",
+            confirmButtonText: "Yes",
+          });
+          reset();
+        }
+      });
   };
 
   return (

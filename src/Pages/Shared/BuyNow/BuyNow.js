@@ -22,20 +22,22 @@ const BuyNow = ({ bike }) => {
     bookInfo.bikeInfo = bike;
     bookInfo.status = "Pending";
     ///order post to server
-    axios.post("http://localhost:5000/orders", bookInfo).then((res) => {
-      if (res.data.insertedId) {
-        Swal.fire({
-          title: "Purchase",
-          text: "Your Order has been placed.",
-          icon: "success",
-          showCancelButton: false,
-          confirmButtonColor: "#3085d6",
-          // cancelButtonColor: "#3085d6",
-          confirmButtonText: "ok",
-        });
-        reset();
-      }
-    });
+    axios
+      .post("https://limitless-sierra-79316.herokuapp.com/orders", bookInfo)
+      .then((res) => {
+        if (res.data.insertedId) {
+          Swal.fire({
+            title: "Purchase",
+            text: "Your Order has been placed.",
+            icon: "success",
+            showCancelButton: false,
+            confirmButtonColor: "#3085d6",
+            // cancelButtonColor: "#3085d6",
+            confirmButtonText: "ok",
+          });
+          reset();
+        }
+      });
   };
 
   return (

@@ -10,10 +10,12 @@ const Collection = () => {
   const [isLoading, setIsLoading] = useState(true);
   //load all bikes
   useEffect(() => {
-    axios.get("http://localhost:5000/bikes").then((res) => {
-      setBikes(res.data);
-      setIsLoading(false);
-    });
+    axios
+      .get("https://limitless-sierra-79316.herokuapp.com/bikes")
+      .then((res) => {
+        setBikes(res.data);
+        setIsLoading(false);
+      });
   }, []);
   return (
     <Box sx={{ minHeight: "100vh", my: 12 }}>
